@@ -1,0 +1,7 @@
+body{
+	background:#555 url(../images/black3.jpg) repeat top left;
+	color:#000;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size:12px;
+	overflow-y:scroll;
+}

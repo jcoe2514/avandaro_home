@@ -1,0 +1,106 @@
+#banner {
+	margin-top: 50px;
+	position: relative;
+}
+#banner img {
+	width: 100%;
+	height: 100%;
+}
+
+/*#banner .contenedor {
+	position: absolute;
+	top: 0%;
+	left: 40%;
+	
+	
+	
+}*/
+
+#banner #detalle{
+
+	display: none;
+
+}
+
+#banner #detalle  {
+
+	position: absolute;
+	top: 2.5%;
+	left: 10%;
+	display: block;
+	width: 200px;
+	background:#000;
+	opacity:0.5;
+	color: #fff;
+	text-decoration: none;
+	padding: 7px;
+	margin-top: 0px;
+	border: 1px solid ;
+	transform: translateX(-50%) translateY(-50%);
+	
+
+}
+
+
+#banner a:hover{
+	background: rgba(51, 51, 51 0.5);
+}
+
+
+#solicitar {
+	display: none;
+}
+
+#solicitar{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(51, 51, 51, 1);
+	z-index: 1000;
+	background: #333;
+	opacity:0.8;
+
+}
+
+ #sdetalle {
+	position: relative;
+	top: 100%;
+	left: 10%;
+	display: block;
+	width: 200px;
+	background:#000;
+	
+	color: #fff;
+	text-decoration: none;
+	padding: 7px;
+	margin-top: 20px;
+	border: 1px solid ;
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+}
+
+#cerrar {
+	position: relative;
+	top: 3%;
+	left: 98%;
+	display: block;
+	width: 40px;
+	background:#000;
+	
+	color: #fff;
+	text-decoration: none;
+	padding: 7px;
+	margin-top: 0px;
+	border: 1px solid ;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.cdetalle {
+	position: relative;
+	left: 40%;
+	color: #fff;
+	background: rgba(51, 51, 51, 0.9);
+	font-family: "Banscrift Ligth";
+	font-size: 50px;
+}
